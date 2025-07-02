@@ -35,7 +35,7 @@ We have a remote machine to deploy **prod** and **dev** version. Deploy workflow
 
 **test-*** workflows run on every push to merge request and master branch. We described them before. 
 
-[CI/CD workflows](https://github.com/IU-Capstone-Project-2025/team-sync/tree/main/.github/workflows)
+LINK: [CI/CD workflows](https://github.com/IU-Capstone-Project-2025/team-sync/tree/main/.github/workflows)
 
 ## Deployment
 
@@ -57,7 +57,7 @@ The best option for now is clustering + TF-IDF: we plan to treat clusters as doc
 
 ## Frontend
 
-Over the course of this week, I made tests for the crucial components of the frontend and the authorization configuration script [TS-167](https://team-sync-capstone.atlassian.net/browse/TS-167), fixed projects not showing up on the main page [TS-102](https://team-sync-capstone.atlassian.net/browse/TS-102), made it so the frontend works with the newly deployed website and fixed other bugs (impossible to go back to the home page from the create project page [TS-175](https://team-sync-capstone.atlassian.net/browse/TS-175), impossible to reload home page [TS-174](https://team-sync-capstone.atlassian.net/browse/TS-174)). Most of the week was spent debugging, since several bugs made it impossible to display the MVP the week before. The projects not showing up on the home page was the main problem of the week, since it was an issue with asynchronous functions. 
+Over the course of this week, I made tests for the crucial components of the frontend and the authorization configuration script ([TS-167](https://team-sync-capstone.atlassian.net/browse/TS-167)), fixed projects not showing up on the main page ([TS-102](https://team-sync-capstone.atlassian.net/browse/TS-102)), made it so the frontend works with the newly deployed website and fixed other bugs (impossible to go back to the home page from the create project page ([TS-175](https://team-sync-capstone.atlassian.net/browse/TS-175)), impossible to reload home page([TS-174](https://team-sync-capstone.atlassian.net/browse/TS-174)). Most of the week was spent debugging, since several bugs made it impossible to display the MVP the week before. The projects not showing up on the home page was the main problem of the week, since it was an issue with asynchronous functions. 
 
 ## Transcript and summary of meeting with stakeholders
 
@@ -135,9 +135,10 @@ Despite that, we made a strong effort to complete as much work as possible. To l
 
 | Team member | Contribution | Jira tasks |
 | --- | --- | --- |
-| Diana MInnakhmetova (Lead) | Held 3 meetings, made design improvements, analyzed meetings with stakeholders, managed improvements in team work |  |
+| Diana MInnakhmetova (Lead) | Held 3 meetings, made design improvements, analyzed meetings with stakeholders, managed improvements in team work | TS-176, TS-170, TS-171, TS-172 |
 | Danis Sharafiev | Implement basic model validation/testing, Define a set of metrics, research algorithms to improve tag-based, Create a tool to calculate metrics (all info in ML paragraph) | TS-146, TS-156, TS-163. TS-165 |
-| Daria Alexandrova |  |  |
+| Daria Alexandrova | Unit tests, make it possible to go back to the home page from the project creation page, fixing problems from the previous week
+*(She was sick for 4 days of the sprint)* | TS-167, TS-175, TS-174. [PR-54](https://github.com/IU-Capstone-Project-2025/team-sync/pull/54), [PR-55,](https://github.com/IU-Capstone-Project-2025/team-sync/pull/55) [PR-56](https://github.com/IU-Capstone-Project-2025/team-sync/pull/56) |
 | Stepan Dementev | [Updated security filtering](https://github.com/IU-Capstone-Project-2025/team-sync/pull/44/files), [Added sample tests for Liza](https://github.com/IU-Capstone-Project-2025/team-sync/pull/45), [Initialized CI/CD + prepared nginx on remote machine for deployment](https://github.com/IU-Capstone-Project-2025/team-sync/pull/46), [Created template for tests in CI](https://github.com/IU-Capstone-Project-2025/team-sync/pull/49), [Released new resume service](https://github.com/IU-Capstone-Project-2025/team-sync/pull/57) + bugfixing | TS-110, TS-115, TS-116, TS-173, TS-161, TS-147, TS-153, TS-162, TS-154, TS-160 |
 | Elizaveta Zagurskih | Added custom logging to backend services ([PR-43](https://github.com/IU-Capstone-Project-2025/team-sync/pull/43), [PR-52](https://github.com/IU-Capstone-Project-2025/team-sync/pull/52)), implemented integrated and unit tests for resume service ([PR-53](https://github.com/IU-Capstone-Project-2025/team-sync/pull/53)), refactored the auth service registration to delegate all user creation to the Resume service via HTTP calls ([PR-43](https://github.com/IU-Capstone-Project-2025/team-sync/pull/43)) | TS-159, TS-166, TS-113, TS-112 |
 | Kamilya Shakirova | Fix methods in DB class, Fix redis in models( all info in ML paragraph) | TS-108, TS-109 |
@@ -163,7 +164,13 @@ Despite that, we made a strong effort to complete as much work as possible. To l
 
 ### ML
 
-- 
+- Optimization of Docker containers
+- Replacing FAISS with Qdrant for vector search
+- Integrating Airflow and Postgres into the main database
+- Adding caching for description-based recommendations
+- Implementing the researched algorithm for tag-based recommendations
+- Creating a new module in the recommendation system for role-based matching
+- Adding a basic search system to the platform
 
 ## Confirmation of the code’s operability
 
