@@ -160,7 +160,12 @@ Despite that, we made a strong effort to complete as much work as possible. To l
 
 ### Frontend
 
-- 
+- "My projects" page
+- "My responces" page
+- Applying for project
+- Decline/Approve project request
+- "Favorite projects" page
+- "Student dashboard" page
 
 ### ML
 
