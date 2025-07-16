@@ -40,9 +40,9 @@
 4. **Application system**
     - 1-click applications for open roles
     - Accept/reject workflow
-5. **Team Dashboard**
+5. **Team dashboard**
     - Track accepted members
-6. **Search & Filters**
+6. **Search & filters**
     - Find projects by skills, roles or course
 
 ## **Future expansion plans**
@@ -51,22 +51,22 @@
 
 Scale TeamSync into a cross-ecosystem platform for universities, hackathons, and corporate projects within 3–5 years.
 
-### **Strategic Priorities**
+### **Strategic priorities**
 
-1. **Teammate Matching** 
+1. **Teammate matching** 
     
-    **User Profiles**
+    **User profiles**
     
     - Skills/experience showcase + availability calendars
     
-    **AI Teammate Recommendations**
+    **AI teammate recommendations**
     
     - "Find Teammates" tab suggesting compatible peers
     
-    **Direct Collaboration Tools**
+    **Direct collaboration tools**
     
     - Icebreaker chats for pre-team formation
-2. **Ecosystem Integration**
+2. **Ecosystem integration**
     - **Universities**
         
         Sync with LMS to auto-import courses/skills
@@ -75,21 +75,21 @@ Scale TeamSync into a cross-ecosystem platform for universities, hackathons, and
         
         Partner with platforms for event team formation
         
-3. **Enhanced AI Capabilities**
+3. **Enhanced AI capabilities**
     - **Predictive team balancing**
     - **Bias reduction**
         
         Anonymous applications to prioritize skills over demographics
         
 4. **Monetization**
-    - **B2B Licensing**:
+    - **B2B licensing**:
         - Universities: Paid access for Capstone/elective course management
         - Hackathons: Tiered pricing for analytics
-    - **Premium Features**:
+    - **Premium features**:
         - Resume builder with verified project experience
-        - Advanced analytics for instructor
-5. **User Experience Evolution**
-    - **Research hub** – ****publish/find academic research opportunities
+
+5. **User experience rvolution**
+    - **Research hub** – publish/find academic research opportunities
 
 ### Tech stack
 
@@ -161,7 +161,7 @@ Moreover, we enhanced tag-based and role-based models with two other formulas, s
 - Added exceptions: Improved exception handling for better error reporting [TS-259] [PR-102](https://github.com/IU-Capstone-Project-2025/team-sync/pull/102).
 - Updated student registration endpoint, so it now takes initial roles and skills [TS-261] [PR-105](https://github.com/IU-Capstone-Project-2025/team-sync/pull/105).
 
-**Bug Fixes**
+**Bug fixes**
 
 - Fix project application deletion [TS-248], [PR-97](https://github.com/IU-Capstone-Project-2025/team-sync/pull/97).
 - Fix foreign keys in student_favourite_project table [TS-251], [PR-93](https://github.com/IU-Capstone-Project-2025/team-sync/pull/93).
