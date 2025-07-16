@@ -106,7 +106,7 @@ Scale TeamSync into a cross-ecosystem platform for universities, hackathons, and
 
 ## Presentation draft
 
-[LINK](https://www.canva.com/design/DAGtUIM7kwY/OcPZj6R3Y1x0r0KyZa0TLg/edit?utm_content=DAGtUIM7kwY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[LINK](https://miro.com/app/board/uXjVJdA5G0Q=/?share_link_id=352339515758)
 
 # Plan for live demo
 
